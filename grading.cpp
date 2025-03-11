@@ -1,33 +1,37 @@
+
 #include <iostream>
 using namespace std;
-
+#define MAX_STUDENT 100
 
 
 int main(){
 
-int number=0,a[number];
+int number,a[MAX_STUDENT];
 
 cout<<"enter the number of studnts:";
 cin>>number;
 
 cout<<"enter the marks of students:";
-for(i:number){
+for(int i=0;i<number;i++){
 
 cin>>a[i];
 
-
-
 }
 
-for(i:number){
+for(int i=0;i<number;i++){
 
-	if(90<=a[i]<=100){
-		cout<<"A";}
-	else if(80<=a[i]<=90){
+	if(90<=a[i]){
+		cout<<"A";
+	    
+	}
+	
+	else if(80<=a[i] && a[i]<90){
 		cout<<"B";
-	}else{
+	}
+	else{
 		cout<<"C";
 	}
 }
 
-
+return 0;
+}
