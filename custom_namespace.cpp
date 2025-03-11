@@ -18,7 +18,7 @@ using namespace myspace;
 int main(){
 
 	int z=myfunc(3,4);
-
+	cout<<z;
 	return 0;
 
 
