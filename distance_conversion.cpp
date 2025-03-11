@@ -10,7 +10,7 @@ int main(){
 	
 	mil=(1/1.6)*km;
 
-	std::cout<<"The distance in mil:";
+	std::cout<<"The distance in mil:"<<mil;
 
 
 	return 0;
